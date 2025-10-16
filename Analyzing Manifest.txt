@@ -4,8 +4,15 @@ android:compileSdkVersion >> Define the android api version.<br>
 
 package >> Unique Idenfier of an apk.<br>
 
-<uses-permission> >> Requests permission from user.<br>
+<uses-permission> >> Requests permission to access other apps data.<br>
 
-<permission> >> Define a custom permission. (Exploit Vector)<br>
+<permission> >> Define a custom permission to give access of resources to other apps. (Exploit Vector)<br>
 
 <queries> >> Exchange data between other applications.
+
+exported="true" or <intent-filter>...<intent-filter/> >> This things are activity.
+
+android:exported missing but intent filter present	✅ Exported (automatically)
+android:exported missing and no intent filter		🚫 Not exported
+
+android:scheme >> Defines deeplink, weblink and applink.
