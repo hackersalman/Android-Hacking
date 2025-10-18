@@ -1,5 +1,13 @@
 ## Activity Hacking
 
+**With ADB**
+
+	am start -n <package-name/.activity-name> >> To start a specific activity of an app/package.
+	
+	am start -a <action-name> -c <catagory-name> >> To start a intent activity with action and catagory name.
+	
+	am start -a <action-name> -c <catagory-name> --es "username" "admin" >> To provide data to the activity.
+
 
 **MainActivity.java**
 
