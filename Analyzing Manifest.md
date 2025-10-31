@@ -1,4 +1,5 @@
 1. [Analyse](#analyse)
+2. [Activity Hacking](#Activity-Hacking)
 
 ## Analyze
 
