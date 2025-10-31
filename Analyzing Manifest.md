@@ -1,7 +1,7 @@
 1. [Analyse](#analyse)
 2. [Activity Hacking](#Activity-Hacking)
 
-## Analyze
+## Analyse
 
 **android:compileSdkVersionCodename** >>  Define the android version.<br>
 
